@@ -169,9 +169,6 @@ header div:nth-child(1){
 }
 
 
-
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -179,6 +176,8 @@ header div:nth-child(1){
 /*=================================
   main styling starts here
 =================================*/
+
+/* welcome section start */
 
 .wrapper-two{
   width: 91.1%;
@@ -251,8 +250,10 @@ h2{
   background-color: #1262A0;
   color: #FFFFFF;
 }
+/* welcome section end */
 
 
+/* help section start */
 .help{
   margin-bottom: 68px;
 }
@@ -306,13 +307,7 @@ h2{
   justify-content: center;
   width: 19.5%;
 }
-
-
-
-
-
-
-
+/* help section end */
 /*=================================
   main styling ends here
 =================================*/
@@ -320,8 +315,6 @@ h2{
 /*=================================
   footer styling starts here
 =================================*/ 
-
-
 footer{
 
   background-color: #323232;
@@ -339,17 +332,6 @@ footer a{
   
 }
 
-
-
-
  /*=================================
   footer styling ends here
 =================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
