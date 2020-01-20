@@ -100,14 +100,73 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 87.6%; 
   margin: 0 auto;
+}
+
+body{
+  background: url("shelf-bg.jpg");
+}
+
+.container{
+  margin: 0 10.5% 0 9.5% ;
+  background-color: #FFFFFF;
 }
 /*=================================
   Header styling starts here
 =================================*/
 
+header{
+  background: url("https://via.placeholder.com/983x423") 50% 50% no-repeat;
+  background-size: cover;
+  padding-top: 57px;
+  border-bottom: 10px solid #1262A0;
+}
 
+h1{
+  font-size: 49px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 22px;
+  padding-left: 7px;
+  
+}
+
+h1 a{
+  color: #FFFFFF;
+}
+
+header span{
+  font-size: 21.5px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 4px #000000;
+  padding-left: 7px;
+}
+
+.navigation-bar{
+  background-color: rgba(0,0,0,0.5);
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  height: 78px;
+  align-items: center;
+
+}
+
+nav li a{
+  font-size: 21.5px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+header div:nth-child(1){
+  margin-bottom: 227px;
+}
 
 
 
