@@ -181,7 +181,7 @@ header div:nth-child(1){
 =================================*/
 
 .wrapper-two{
-  width: 91.3%;
+  width: 91.1%;
   margin: 0 auto;
 }
 .welcome{
@@ -243,12 +243,70 @@ h2{
 .pagination-bar{
   width: 22%;
   margin: 0 auto;
+  margin-bottom: 68px;
+  margin-top: 33px;
 }
 
 .pagination-bar .active a{
   background-color: #1262A0;
   color: #FFFFFF;
 }
+
+
+.help{
+  margin-bottom: 68px;
+}
+
+.help .wrapper-two{
+
+  background-color:#1262A0 ;
+  box-sizing: border-box;
+  padding: 0 8.9%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-meetup{
+  font-size: 104px;
+  color: #FFFFFF;
+  padding-top: 69px;
+}
+.help-box{
+  display: inline-block;
+  width: 80%;
+  padding-top: 53px;
+  padding-bottom: 50px;
+}
+
+.help-box h2{
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.help-box p{
+  font-size: 17.5px;
+  color: #FFFFFF;
+  letter-spacing: 0.2px;
+  line-height: 32px;
+  word-spacing: 1px;
+  padding-bottom: 22px;
+}
+
+.help-box a{
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  text-transform: capitalize;
+  letter-spacing: 0.2px;
+  font-size: 17.5px;
+  box-sizing: border-box;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19.5%;
+}
+
 
 
 
@@ -264,7 +322,22 @@ h2{
 =================================*/ 
 
 
+footer{
 
+  background-color: #323232;
+  box-sizing: border-box;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a{
+  color: #FFFFFF;
+  font-size: 17.5px;
+  letter-spacing: 0.2px;
+  
+}
 
 
 
